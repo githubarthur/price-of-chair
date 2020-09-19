@@ -1,1 +1,1 @@
-ADMINS=['arthur@example.com']
+ADMIN="arthur@example.com"

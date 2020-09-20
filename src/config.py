@@ -1,1 +1,1 @@
-ADMIN="arthur@example.com"
+ADMINS="arthur@example.com"

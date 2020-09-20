@@ -6,7 +6,7 @@ __author__ = 'jslvtr'
 
 
 class Database(object):
-    URI = "mongodb+srv://arthur1234:password1234@cluster0.d9idm.mongodb.net/pricing?retryWrites=true&w=majority"
+    URI = os.environ.get('MONGODB_URI')
     DATABASE = None
 
     @staticmethod

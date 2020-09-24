@@ -1,3 +1,5 @@
+import sys
+sys.path.insert(0,'/app')
 from flask import Flask, render_template
 from src.common.database import Database
 
